@@ -5,7 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class FuelTypeParameter implements Parameter<FuelType> {
 
-    @JsonProperty("fuelType") private FuelType fuelType;
+    @JsonProperty("fuelType")
+    private FuelType fuelType;
 
     @Override
     public FuelType value() {

@@ -4,7 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class FightersParameter implements Parameter<Integer> {
 
-    @JsonProperty("fighters") private Integer fighters;
+    @JsonProperty("fighters")
+    private Integer fighters;
 
     @Override
     public Integer value() {

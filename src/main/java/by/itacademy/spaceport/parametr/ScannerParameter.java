@@ -5,7 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ScannerParameter implements Parameter<ScannerType> {
 
-    @JsonProperty("scanner") private ScannerType scanner;
+    @JsonProperty("scanner")
+    private ScannerType scanner;
 
     @Override
     public ScannerType value() {
